@@ -15,19 +15,19 @@ addEventListener("keypress", function (event){
 
 function makeSound(key){
     switch(key){
-        case "w":
+        case "a":
             var wDrum = new Audio("sounds/tom-1.mp3");
             wDrum.play();
             break;
-        case "a":
+        case "s":
             var aDrum = new Audio("sounds/tom-2.mp3");
             aDrum.play();
             break;
-        case "s":
+        case "d":
             var sDrum = new Audio("sounds/tom-3.mp3");
             sDrum.play();
             break;
-        case "d":
+        case "f":
             var dDrum = new Audio("sounds/tom-4.mp3");
             dDrum.play();
             break;
